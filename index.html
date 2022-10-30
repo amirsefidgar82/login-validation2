@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup form</title>
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+  </head>
+  <body>
+    <form action="/" name="sign-up" onsubmit="return check()">
+      <div class="field">
+        <label for="username">نام کاربری</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="نام کاربری خود را وارد کنید"
+          name="username"
+        />
+      </div>
+      <div class="field">
+        <label for="password">پسورد</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="پسورد ایز هیِر"
+          name="password"
+        />
+      </div>
+      <p id="errors"></p>
+      <button type="submit">ثبت اطلاعات</button>
+    </form>
+    <script src="/assets/scripts/main.js"></script>
+  </body>
+</html>
